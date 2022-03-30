@@ -1,0 +1,35 @@
+{
+  "name": "thumbnail-maker",
+  "version": "1.0.0",
+  "description": "video thumbnail maker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awakelife93/thumbnail-maker.git"
+  },
+  "keywords": [
+    "video",
+    "image",
+    "mp4",
+    "m3u8",
+    "thumbnail"
+  ],
+  "author": "HyunwooPark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awakelife93/thumbnail-maker/issues"
+  },
+  "homepage": "https://github.com/awakelife93/thumbnail-maker#readme",
+  "dependencies": {
+    "aws-sdk": "^2.673.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
